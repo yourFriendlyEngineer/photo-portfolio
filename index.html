@@ -24,14 +24,22 @@
         *, *::before, *::after { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
         body {
-            margin: 0; background: var(--bg); color: var(--text);
-            font-family: 'Manrope', sans-serif;
-            height: 100dvh; width: 100vw;
-            overflow: hidden; 
-            -webkit-font-smoothing: antialiased;
-            text-rendering: optimizeLegibility;
-            cursor: default; user-select: none;
-        }
+			margin: 0; 
+			background: var(--bg); 
+			color: var(--text);
+			font-family: 'Manrope', sans-serif;
+    
+			height: 100svh; 
+			width: 100vw;
+			position: fixed; 
+    
+			overflow: hidden; 
+			-webkit-font-smoothing: antialiased;
+			text-rendering: optimizeLegibility;
+			cursor: default; 
+			user-select: none;
+			touch-action: none;
+		}
 
         a, button { text-decoration: none; color: inherit; cursor: pointer; border: none; background: none; font-family: inherit; padding: 0; outline: none; }
 

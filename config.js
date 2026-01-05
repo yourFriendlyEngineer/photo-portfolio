@@ -1,6 +1,6 @@
 const SITE_CONFIG = [
     { 
-        folder: "silhouette",   // <--- КАВЫЧКИ ОБЯЗАТЕЛЬНЫ!
+        folder: "silhouette",  
         title: "Silhouette & Soul" 
     },
 	{ 
@@ -14,10 +14,6 @@ const SITE_CONFIG = [
 	{ 
         folder: "excellence", 
         title: "Excellence" 
-    },
-	{ 
-        folder: "greece", 
-        title: "Greece" 
     },
 
 ];
