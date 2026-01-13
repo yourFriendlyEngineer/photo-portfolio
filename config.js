@@ -12,8 +12,8 @@ const SITE_CONFIG = [
         title: "Edges" 
     },
 	{ 
-        folder: "excellence", 
-        title: "Excellence" 
+        folder: "Greece", 
+        title: "Greece" 
     },
 
 ];
